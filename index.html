@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Message</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Barriecito&family=Bebas+Neue&family=Borel&family=Caveat&family=Comic+Neue&family=DM+Serif+Display:ital@1&family=Dosis:wght@800&family=Libre+Baskerville&family=Lora:ital,wght@0,400;1,400;1,600&family=Montserrat&family=Mooli&family=Open+Sans:wght@300&family=Orbitron&family=Pacifico&family=Pangolin&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <style>
+        .div-1 {
+            width: 50%;
+            min-height: auto;
+            float:left;
+            text-align: center;
+            background-color: #90EE90;
+            margin-right: 5%;
+            margin-left: 5%;
+            font-weight:lighter;
+        }
+
+        .div-2 {
+            width: 50%;
+            min-height: auto;
+            float: right;
+            text-align: center;
+            background-color: #FFC0CB;
+            margin-right: 5%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Mooli', sans-serif;
+        }
+
+        button {
+            border: 0;
+            height: 50px;
+            width:150px;
+            border-radius: 2rem;
+            margin-bottom: 5%;
+
+        }
+
+        .green {
+            background-color: green;
+            font-size: 15px;
+        }
+        .red {
+            background-color: red;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="div-1">
+        <div><img src="./emojilaugh-emoji.gif" alt="happy-emoticon" height="100"></div>
+          <h1>Terrific!</h1>
+          <p>Congratulations! Your account has been successfully created and is now ready for you to explore our platform.</p>
+          <button class="green">Sign in</button>
+     </div>
+        <div class="div-2">
+            <div><img src="./sad-gif.gif" alt="sad-emoticon" height="100"></div>
+            <h1>Whoa!</h1>
+            <p>There was an issue while creating your account. Please review your information and attempt registration again.</p>
+          <button class="red">Try Again</button>
+        </div>
+</div>
+</body>
+</html>
